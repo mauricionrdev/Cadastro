@@ -1,6 +1,6 @@
 # Cadastro
 
-Página de cadastro usando HTML, CSS JavaScript.<br />
+Página de cadastro animada usando HTML, CSS JavaScript.<br />
 
 ### Versão Web
 
