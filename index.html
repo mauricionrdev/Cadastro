@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="content-1">
+        <h1>
+          Faça seu login<br />
+          na plataforma
+        </h1>
+        <div class="circle"></div>
+      </section>
+      <section class="content-2">
+        <div class="login">
+          <div class="social-media">
+            <a href="#"> <img src="assets/github.png" alt="Google" /> </a>
+            <a href="#"> <img src="assets/google.png" alt="Google" /> </a>
+            <a href="#"> <img src="assets/facebook.png" alt="Facebook" /> </a>
+            <a href="#"> <img src="assets/linkedin.png" alt="Linkedin" /> </a>
+          </div>
+          <div class="alternative"><span>OU</span></div>
+
+          <form action="">
+            <label for="name">
+              <i class="fas fa-user"></i>
+              <input type="text" name="name" id="name" placeholder="Nome" />
+            </label>
+            <label for="email">
+              <i class="fas fa-envelope"></i>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <label for="password">
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Senha"
+              />
+            </label>
+            <label class="forgot"
+              ><a class="forgot-link" href="#">Esqueceu a senha?</a></label
+            >
+            <input type="submit" value="Cadastrar" />
+            <label class="register"
+              >Não tem uma conta?<a class="register-link" href="#"
+                >Clique aqui.</a
+              ></label
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+    <ul class="squares"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
